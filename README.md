@@ -24,9 +24,22 @@ $ git commit -m "first commit" 이게 맞는방식 예를들어서($ git commit 
 $git log하면 누가 접속했는지 확인하는 방법 
 
 git branch -M main 접속방식을 바꾸는 방법
----git branch -D main 이건 지우는방법 주석---
+
+git branch -D develop 이건 지우는방법 주석
 
 git remote add origin https://github.com/junujunuyu/firstgithub.git
 위의 내용은 여기에 넣겠다 선언만 한 상태
 
 git push -u origin main 마지막으로 push해서 넣어줘야 들어감
+
+$ git checkout -b develop      -b (뜻은 brunch)에다가 develop을 만들어주면서 바로 brunch를 바꿔준다.
+
+$git branch                     브런치를 몇개 가지고 있는지 확인
+
+$ git branch add-developer    git brunch를 만들어만 주는 역할이다.
+
+$ git switch add-developer     git switch brunch를 변경해 주는 역할
+
+$ git branch -m add-developer developer     brunch이름 바꿔주는 역할
+
+$ git merge developer               모든 branch를 합쳐주는 역할
