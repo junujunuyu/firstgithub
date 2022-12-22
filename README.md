@@ -15,7 +15,7 @@ $git init 치고
 $git add . (전체 올리기) 혹은 git index.html
 $git status 상태확인을 위해 치는 방식
 $git commit (메세지를 안쳤을 때에는 ::::q눌러서 다시 창으로 나온다.)
-$ git commit -m "first commit" 이게 맞는방식 
+$ git commit -m "first commit" 이게 맞는방식 예를들어서($ git commit -m "h2 추가") h2를 추가하면 h2추가항목을 써준다. 
 $git log하면 누가 접속했는지 확인하는 방법 
 git branch -M main 접속방식을 바꾸는 방법
 ---git branch -D main 이건 지우는방법 주석---
